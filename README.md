@@ -65,8 +65,11 @@ Open a command prompt as Administrator, navigate to the NSSM directory, and run:
 In the NSSM GUI, set the following fields:
 
 Path: The path to your Python executable (usually `C:\Python3x\python.exe`)
+
 Startup directory: The directory containing the zoom_automator.py script
+
 Arguments: The name of your script, i.e., zoom_automator.py
+
 Click the "Install service" button. NSSM will install the service and start it automatically.
 
 The script will now run as a background service on Windows, and it will start automatically when the system boots up.
